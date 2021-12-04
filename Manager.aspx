@@ -306,10 +306,11 @@
         <div class="auto-style3">
             <br />
             <br />
+              <!-- Admin Database connection --> <!-- Manage Admin Database -->
             <span class="auto-style2"><strong>Managing Admin Database:</strong></span><br />
-            <!-- Admin Database connection -->
+          
             <asp:SqlDataSource ID="SqlDataSourceAdmin" runat="server" ConnectionString="<%$ ConnectionStrings:RegistrationConnectionString %>" DeleteCommand="DELETE FROM [Admindata] WHERE [ID] = @ID" InsertCommand="INSERT INTO [Admindata] ([User_Name], [Email], [Password], [Address]) VALUES (@User_Name, @Email, @Password, @Address)" SelectCommand="SELECT * FROM [Admindata]" UpdateCommand="UPDATE [Admindata] SET [User_Name] = @User_Name, [Email] = @Email, [Password] = @Password, [Address] = @Address WHERE [ID] = @ID">
-               <!-- Manage Admin Database -->
+               
                  <DeleteParameters>
                     <asp:Parameter Name="ID" Type="Int32" />
                 </DeleteParameters>

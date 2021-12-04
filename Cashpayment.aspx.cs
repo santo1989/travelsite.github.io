@@ -7,8 +7,15 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Data;
 using System.Configuration;
+using System.Text;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using iTextSharp.text;
+using iTextSharp.text.pdf.draw;
+using iTextSharp.text.pdf;
+using iTextSharp.text.html;
+using iTextSharp.text.html.simpleparser;
+using iTextSharp.text.xml;
 
 public partial class Cashpayment : System.Web.UI.Page
 {

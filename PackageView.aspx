@@ -42,8 +42,9 @@
                 <br />
             </ItemTemplate>
         </asp:DataList>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RegistrationConnectionString %>" SelectCommand="SELECT * FROM [Package] WHERE ([Package_Id] = @Package_Id)">
             <!-- identify the package Id -->
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RegistrationConnectionString %>" SelectCommand="SELECT * FROM [Package] WHERE ([Package_Id] = @Package_Id)">
+           
             <SelectParameters>
                 <asp:QueryStringParameter Name="Package_Id" QueryStringField="Id" Type="Int32" /> 
             </SelectParameters>

@@ -212,7 +212,7 @@ baseline;mso-text-raise:0%" class="auto-style11"> , </span>
         </span>
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Start</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/index.aspx">Start</asp:HyperLink>
         <br />
         <br />
         <br />

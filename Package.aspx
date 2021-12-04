@@ -14,10 +14,11 @@
            <!-- Package database connection -->
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RegistrationConnectionString %>" SelectCommand="SELECT * FROM [Package]"></asp:SqlDataSource>
         <br />
+           <!-- show data from package database -->
            <div class="auto-style1">
         <asp:DataList ID="DataList1" runat="server" DataKeyField="Package_Id" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="DataList1_SelectedIndexChanged" RepeatColumns="2" RepeatDirection="Horizontal" OnItemCommand="DataList1_ItemCommand" Height="200px" CellSpacing="10" HorizontalAlign="Justify">
             <HeaderStyle Width="300px" />
-            <!-- show data from package database -->
+            
             <ItemTemplate>
                 <table border="1" class="auto-style2">
                     <tr>

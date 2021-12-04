@@ -58,7 +58,7 @@ body  {
 <!-- Navigation bar -->
 <div class="navbar">
   <a href="ProjectDetails.aspx">Tour Management Project</a>
-  <a href="Default.aspx">Home</a>
+  <a href="index.aspx">Home</a>
   <a href="Package.aspx">Package</a>
   <a href="Registration.aspx">Registration</a>
   <a href="Login.aspx">Login</a>
